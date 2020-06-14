@@ -34,3 +34,20 @@ span.academy {
  nav ul li {
    margin-left: 16px;
  }
+
+ @media (min-width: 600px) {
+  .hide-desktop {
+    display: none;
+  }
+}
+
+ @media (max-width: 599px) {
+   .hide-mobile {
+     display: none;
+   }
+   nav {
+     justify-content: space-between;
+   }
+ }
+
+
