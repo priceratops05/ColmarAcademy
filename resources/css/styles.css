@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+body {
+  font-family: Roboto;
+  background-color: lightgray;
+  margin-top: 64px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: white;
+  height: 64px;
+  padding: 0 24px;
+}
+
+span.colmar {
+  font-weight: 400;
+}
+
+span.academy {
+  font-weight: 300;
+  color:gray;
+}
+
+ nav ul {
+  display: flex;
+  margin-left: auto;
+ }
+
+ nav ul li {
+   margin-left: 16px;
+ }
