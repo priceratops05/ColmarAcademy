@@ -34,28 +34,14 @@ span.academy {
    margin-left: 16px;
  }
 
- @media (min-width: 600px) {
-  .hide-desktop {
-    display: none;
-  }
-}
-
- @media (max-width: 599px) {
-   .hide-mobile {
-     display: none;
-   }
-   nav {
-     justify-content: space-between;
-   }
- }
-
 .banner {
   display: flex;
   align-items: center;
+  padding-bottom: 32px;
 }
 
 .banner img {
-  margin: 32px 24px;
+  padding: 32px 24px;
   width: 60%;
 }
 
@@ -97,7 +83,119 @@ span.academy {
   }
 
   .learn-something {
-  margin: auto;
+    margin: auto;
+  }
+}
+
+.information {
+  display: flex;
+  background-color: white;
+  color:rgb(61, 60, 60);
+}
+
+.practicing {
+width: 60%;
+padding: 32px 24px;
+}
+
+.practicing img {
+  width: 100%;
+  
+}
+
+.practicing span {
+  display: inline-block;
+  width: 80%;
+  font-weight: 300;
+  line-height: 1.5;
+  color: rgb(71, 67, 67);
+}
+
+.practicing h5 {
+  color: rgb(71, 67, 67);
+  font-weight: 400;
+}
+
+.about {
+  width: 40%;
+  padding-top: 16px;
+  color: rgb(71, 67, 67);
+}
+.about img {
+  height: auto;
+  padding: 16px;
+}
+.about img.hide-desktop {
+  width: 100%;
+}
+
+.about img.hide-mobile {
+  width: 35%;
+}
+
+.about h2{
+margin-bottom: 8px;
+margin-top: 0;
+}
+
+.about span {
+  display: inline-block;
+  line-height: 1.5;
+  margin-bottom: 8px;
+}
+.about ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.about li {
+  display: flex;
+  align-items: center;
+}
+
+.about div {
+  display: flex;
+  flex-direction: column;
+}
+.about a {
+  color: dodgerblue;
+}
+
+.lecture {
+  background-color: lightgrey;
+}
+
+@media (min-width: 600px) {
+  .hide-desktop {
+    display: none;
+  }
+}
+
+@media (max-width: 599px) {
+  .hide-mobile {
+    display: none;
+  }
+  nav {
+    justify-content: space-between;
   }
 
+  .about {
+    width: 100%;
+    padding-bottom: 32px;
+  }
+  
+  .about li {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .lecture {
+    background-color: white;
+  }
+
+  .details {
+  padding: 0 32px;
+  }
 }
+
+
