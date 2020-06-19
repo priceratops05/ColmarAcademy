@@ -72,6 +72,21 @@ span.academy {
   color: white
 }
 
+footer {
+  display: flex;
+  padding: 16px 24px;
+  background-color: white;
+  border-top: 1px solid lightgray;
+}
+
+.conditions {
+  margin-left: auto;
+}
+
+.conditions a {
+  margin-left: 16px;
+}
+
 @media (max-width: 920px) {
   .banner {
     display: inline-block;
@@ -87,23 +102,23 @@ span.academy {
   }
 }
 
-.information {
+.section {
   display: flex;
   background-color: white;
   color:rgb(61, 60, 60);
 }
 
-.practicing {
+.main-content {
 width: 60%;
 padding: 32px 24px;
 }
 
-.practicing img {
+.main-content img, .main-content video {
   width: 100%;
   
 }
 
-.practicing span {
+.main-content span {
   display: inline-block;
   width: 80%;
   font-weight: 300;
@@ -111,57 +126,57 @@ padding: 32px 24px;
   color: rgb(71, 67, 67);
 }
 
-.practicing h5 {
+.main-content h5 {
   color: rgb(71, 67, 67);
   font-weight: 400;
 }
 
-.about {
+.secondary-content {
   width: 40%;
   padding-top: 16px;
   color: rgb(71, 67, 67);
 }
-.about img {
+.secondary-content img {
   height: auto;
   padding: 16px;
 }
-.about img.hide-desktop {
+.secondary-content img.hide-desktop {
   width: 100%;
 }
 
-.about img.hide-mobile {
+.secondary-content img.hide-mobile {
   width: 35%;
 }
 
-.about h2{
+.secondary-content h2{
 margin-bottom: 8px;
 margin-top: 0;
 }
 
-.about span {
+.secondary-content span {
   display: inline-block;
   line-height: 1.5;
   margin-bottom: 8px;
 }
-.about ul {
+.secondary-content ul {
   display: flex;
   flex-direction: column;
 }
 
-.about li {
+.secondary-content li {
   display: flex;
   align-items: center;
 }
 
-.about div {
+.secondary-content div {
   display: flex;
   flex-direction: column;
 }
-.about a {
+.secondary-content a {
   color: dodgerblue;
 }
 
-.lecture {
+.highlight {
   background-color: lightgrey;
 }
 
@@ -209,6 +224,16 @@ margin-top: 0;
 
 }
 
+.thesis {
+  background-color: white;
+}
+
+.thesis h2 {
+  text-align: center;
+  padding-top: 32px;
+  margin: 0;
+}
+
 @media (min-width: 600px) {
   .hide-desktop {
     display: none;
@@ -224,17 +249,17 @@ margin-top: 0;
     justify-content: space-between;
   }
 
-  .about {
+  .secondary-content {
     width: 100%;
     padding-bottom: 32px;
   }
   
-  .about li {
+  .secondary-content li {
     flex-direction: column;
     align-items: flex-start;
   }
 
-  .lecture {
+  .highlight {
     background-color: white;
   }
 
@@ -251,6 +276,12 @@ margin-top: 0;
     background-color: lightgray;
     margin: 0 0 8px;
   }
+
+  .final-section {
+    width: 100%;
+    padding: 16px 0 24px;
+  }
+
 }
 
 
