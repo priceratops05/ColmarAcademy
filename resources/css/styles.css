@@ -15,6 +15,7 @@ nav {
   height: 64px;
   padding: 0 24px;
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  z-index: 1;
 }
 
 span.colmar {
@@ -282,7 +283,7 @@ margin-top: 0;
   }
 
   .highlight {
-    background-color: white;
+    background-color: #F5ECEB;
   }
 
   .details {
@@ -290,12 +291,12 @@ margin-top: 0;
   }
 
   .learning {
-    background-color: white;
+    background-color: #E6C9C5;
   }
 
   .learning li {
     width: 100%;
-    background-color: lightgray;
+    background-color: #F5ECEB;
     margin: 0 0 8px;
   }
 
