@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
 body {
   font-family: Roboto;
-  background-color: lightgray;
+  background-color: #E6C9C5;
   margin-top: 64px;
 }
 
@@ -14,6 +14,7 @@ nav {
   background-color: white;
   height: 64px;
   padding: 0 24px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 span.colmar {
@@ -69,7 +70,27 @@ span.academy {
   margin: 15px 0;
   padding: 8px 0;
   background-color: rgb(59, 57, 57);
-  color: white
+  color: white;
+  border-radius: 5px;
+  transition: opacity 400ms;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.7;
+}
+
+a {
+  transition: all 300ms;
+  position: relative;
+  top: 0;
+  right: 0;
+}
+
+a:hover {
+  text-shadow: 3px 3px rgba(0, 0, 0, 0.2);
+  top: -1px;
+  right: 1px;
 }
 
 footer {
@@ -104,7 +125,7 @@ footer {
 
 .section {
   display: flex;
-  background-color: white;
+  background-color: #F5ECEB;
   color:rgb(61, 60, 60);
 }
 
@@ -177,7 +198,7 @@ margin-top: 0;
 }
 
 .highlight {
-  background-color: lightgrey;
+  background-color: #D4CED6;
 }
 
 .learning {
@@ -204,8 +225,9 @@ margin-top: 0;
 .learning li {
   width: 30%;
   margin: 16px;
-  background-color: white;
+  background-color: #F5ECEB;
   padding-bottom: 24px;
+  box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.2);
 }
 
 .learning img {
@@ -225,7 +247,7 @@ margin-top: 0;
 }
 
 .thesis {
-  background-color: white;
+  background-color: #F5ECEB;
 }
 
 .thesis h2 {
@@ -283,5 +305,6 @@ margin-top: 0;
   }
 
 }
+
 
 
